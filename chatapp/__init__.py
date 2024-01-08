@@ -12,6 +12,6 @@ def create_app():
     CORS(app)
     app.register_blueprint(main)
 
-    socketio.init_app(app, cors_allowed_origins="*")
+    socketio.init_app(app, cors_allowed_origins="https://gpt-talk-front-a450a1232726.herokuapp.com")
 
     return app
