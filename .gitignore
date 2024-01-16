@@ -1,0 +1,5 @@
+.venv
+.env
+__pycache__
+gpttalk-410710-b62d406bc6ee.json
+venv
